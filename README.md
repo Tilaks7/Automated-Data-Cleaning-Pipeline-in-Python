@@ -1,2 +1,29 @@
-# Automated-Data-Cleaning-Pipeline-in-Python
-End-to-end automated data cleaning pipeline in Python using Pandas, NumPy, and Faker — handles missing values, outliers, formatting, and generates Power BI-ready summaries.
+# 🧹 Automated Data Cleaning Pipeline in Python
+
+This project automates the entire data cleaning and preprocessing workflow using Python. It takes raw CSV files (like e-commerce or sales data), cleans and enriches them, and generates a Power BI–ready summary output automatically.
+
+---
+
+## 🚀 Features
+- Handles missing values and duplicates  
+- Standardizes text and date formats  
+- Detects and removes outliers using IQR  
+- Validates numeric ranges (Quantity, Price)  
+- Recalculates totals correctly  
+- Creates derived columns: `Order_Month`, `Revenue_Category`  
+- Generates summarized report by Category & City  
+- Fully logged process for transparency
+
+---
+
+## 📂 Project Structure
+automated-data-cleaning-pipeline/
+├── data/
+│ ├── raw/ # Input CSV files
+│ └── cleaned/ # Cleaned outputs
+├── logs/ # Log files
+├── scripts/
+│ ├── generate_dummy_data.py
+│ └── data_cleaning_pipeline_v2.py
+├── requirements.txt
+└── README.md
