@@ -27,3 +27,9 @@ automated-data-cleaning-pipeline/
 │ └── data_cleaning_pipeline_v2.py
 ├── requirements.txt
 └── README.md
+
+
+📬 **Looking for IT Support/Technical support roles with automation skills?**  
+This project shows my ability to build scalable data preprocessing systems using Python and Pandas.  
+Contact: [LinkedIn](https://www.linkedin.com/71l4k) • [TNBShare.com](https://TNBShare.com)
+
