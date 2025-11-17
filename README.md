@@ -28,6 +28,22 @@ automated-data-cleaning-pipeline/
 ├── requirements.txt
 └── README.md
 
+## ⚙️ Quickstart
+1. Clone the repo
+2. (Optional) Create a virtual environment and activate it
+3. Install dependencies:
+```
+pip install -r requirements.txt
+```
+4. Generate dummy data (optional, a sample CSV is already included):
+```
+python scripts/generate_dummy_data.py
+```
+5. Run the cleaning pipeline:
+```
+python scripts/data_cleaning_pipeline_v2.py --input data/raw --output data/cleaned
+```
+
 
 📬 **Looking for IT Support/Technical support roles with automation skills?**  
 This project shows my ability to build scalable data preprocessing systems using Python and Pandas.  
